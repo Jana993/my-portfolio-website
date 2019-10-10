@@ -1,0 +1,90 @@
+/*** base styles ***/
+body {
+  font-size: 16px;
+  font-family: 'Merriweather', serif;
+  color: #21143D;
+}
+
+/*** grids ***/
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/** header **/
+header {
+  clear: both;
+  overflow: auto;
+  background-image: url('../img/hero-image-12.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+
+/** navigation **/
+nav {
+  float: left;
+  margin-left: 400px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  text-transform: uppercase;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #21143D;
+}
+
+/** greeting **/
+#greeting {
+  font-family: 'Libre Baskerville', serif;
+  clear: both;
+  text-align: left;
+  padding: 100px 0 40px 100px;
+}
+
+#greeting h1 {
+  font-size: 34px;
+  word-spacing: 5px;
+}
+
+#greeting h2 {
+  line-height: 38px;
+  font-size: 24px;
+  color: #808080;
+}
+
+#greeting span {
+  color: #5A2267;
+  font-family: 'Sacramento', cursive;
+  font-size: 48px;
+}
+
+
+
+
+
+
+
+
+/** about me **/
+/**#about {
+  height: 600px;
+  background: #5A2267;
+  clear: both;
+  overflow: auto;
+} **/
