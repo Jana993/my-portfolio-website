@@ -1,12 +1,11 @@
 /*** base styles ***/
-body {
+ body {
   font-size: 16px;
   font-family: 'Merriweather', serif;
   color: #21143D;
 }
 
-/*** grids ***/
-.full-width {
+/*** grids ***/.full-width {
   width: 1200px;
 }
 
@@ -27,7 +26,7 @@ header {
   background-image: url('../img/hero-image-12.png');
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 660px;
 }
 
 
@@ -65,14 +64,172 @@ nav a {
 #greeting h2 {
   line-height: 38px;
   font-size: 24px;
-  color: #808080;
+  color: #bebec1;
 }
 
 #greeting span {
-  color: #5A2267;
+  color: #601009;
   font-family: 'Sacramento', cursive;
   font-size: 48px;
 }
+
+
+/*** work ***/
+#work {
+clear: both;
+overflow: auto;
+}
+
+#work h2 {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  color: #601009;
+}
+
+#first-project {
+  float: left;
+}
+
+#work h2 {
+  padding: 40px 0 40px 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#work img {
+  padding-left: 100px;
+  width: 450px;
+  padding-bottom: 40px;
+}
+
+/** ??????
+#work .half-width .project-description {
+  width: 500px;
+} **/
+
+#work h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #601009;
+}
+
+#work h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: lighter;
+  line-height: 5px;
+}
+
+#work p {
+  color: #bebec1;
+  /** width: 500px; **/
+}
+
+
+/** about me **/
+#about {
+  background: #bebec1;
+  overflow: auto;
+}
+
+#about h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+#about img {
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+#about h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #601009;
+}
+
+#about p {
+  width: 500px;
+}
+
+/** footer **/
+footer {
+  background: #21143D;
+  overflow: auto;
+}
+
+#contact {
+  color: #e5e5e6;
+}
+
+#contact h2 {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#hire {
+  text-align:center;
+}
+
+#hire h3 {
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#hire p {
+  font-weight: lighter;
+}
+
+#hire a {
+  font-weight: lighter;
+  text-decoration: none;
+  color: #e5e5e6;
+}
+
+#connect {
+  text-align:center;
+}
+
+#connect h3 {
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#connect ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#meet {
+  text-align:center;
+}
+
+#meet h3 {
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#meet p {
+  font-weight: lighter;
+}
+
+#copyright {
+  clear: both;
+  text-align: center;
+}
+
+#copyright p{
+  font-weight: lighter;
+  padding-top: 50px;
+  font-size: 12px;
+}
+
+
+
+
 
 
 
