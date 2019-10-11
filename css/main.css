@@ -26,7 +26,7 @@ header {
   background-image: url('../img/hero-image-12.png');
   background-position: center;
   background-repeat: no-repeat;
-  height: 660px;
+  height: 700px;
 }
 
 
@@ -132,6 +132,7 @@ overflow: auto;
 #about h2 {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 16px;
   font-family: 'Libre Baskerville', serif;
 
 }
@@ -140,7 +141,7 @@ overflow: auto;
   width: 200px;
   border-radius: 50%;
   margin-left: 200px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   margin-top: 20px;
 }
 
