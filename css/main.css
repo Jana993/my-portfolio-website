@@ -96,15 +96,16 @@ overflow: auto;
 }
 
 #work img {
-  padding-left: 100px;
+  padding-left: 120px;
   width: 450px;
   padding-bottom: 40px;
 }
 
-/** ??????
-#work .half-width .project-description {
+
+#work .project-description {
   width: 500px;
-} **/
+  padding-left: 40px;
+}
 
 #work h3 {
   font-family: 'Libre Baskerville', serif;
