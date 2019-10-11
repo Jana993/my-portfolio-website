@@ -98,7 +98,7 @@ overflow: auto;
 #work img {
   padding-left: 120px;
   width: 450px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 
@@ -122,6 +122,31 @@ overflow: auto;
   color: #bebec1;
   /** width: 500px; **/
 }
+
+#third-project {
+  float: left;
+}
+
+#forth-project {
+  float: left;
+}
+
+#forth-project h4 {
+  line-height: 20px;
+}
+
+#fifth-project {
+  float: left;
+}
+
+#sixt-project {
+  float: left;
+}
+
+#seveth-project {
+  float: left;
+}
+
 
 
 /** about me **/
