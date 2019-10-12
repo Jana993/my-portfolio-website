@@ -5,8 +5,10 @@
   color: #21143D;
 }
 
-/*** grids ***/.full-width {
+/*** grids ***/
+.full-width {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .half-width {
@@ -22,10 +24,10 @@
 /** header **/
 header {
   clear: both;
-  overflow: auto;
   background-image: url('../img/hero-image-12.png');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 700px;
 }
 
