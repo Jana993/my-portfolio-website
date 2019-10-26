@@ -117,7 +117,7 @@ overflow: auto;
 #work h4 {
   font-family: 'Libre Baskerville', serif;
   font-weight: lighter;
-  line-height: 5px;
+  line-height: 20px;
 }
 
 #work p {
@@ -129,24 +129,13 @@ overflow: auto;
   float: left;
 }
 
-#third-project h4 {
-  line-height: 20px;
-}
-
 #forth-project {
   float: left;
 }
 
-#forth-project h4 {
-  line-height: 20px;
-}
 
 #fifth-project {
   float: left;
-}
-
-#fifth-project h4 {
-  line-height: 20px;
 }
 
 #sixt-project {
