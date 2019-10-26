@@ -129,6 +129,10 @@ overflow: auto;
   float: left;
 }
 
+#third-project h4 {
+  line-height: 20px;
+}
+
 #forth-project {
   float: left;
 }
@@ -141,13 +145,17 @@ overflow: auto;
   float: left;
 }
 
+#fifth-project h4 {
+  line-height: 20px;
+}
+
 #sixt-project {
   float: left;
 }
 
-/** #seveth-project {
+#seveth-project {
   float: left;
-} **/
+}
 
 
 
